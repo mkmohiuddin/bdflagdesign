@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+height: 1500px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 700px;
+    height: 400px;
+background-color: green;
+position: relative;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius:100% ;
+    position: absolute;
+    top: 27%;
+    left: 37% ;
+}
+.social-icons{
+    width: 100%;
+    display: block;
+    text-align:center;
+    padding: 100px 0px 0px;
+}
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icons li a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 40px;
+    border-radius:100% ;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 0px 15px;
+    transition: 1s;
+}
+.social-icons li a:hover {
+background: black;
+color: white;
+}
+.fb{
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 30%;
+    right: -100px;
+    transition:2s ;
+}
+.youtube{
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 40px;
+    right:-90px ;
+    transition:2s ;
+}
+.linkedin{
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 110px;
+    right: -100px;
+    transition:2s ;
+}
+.fb:hover{
+    right: 2px;
+}
+.linkedin:hover{
+    right: 2px;
+}
+.youtube:hover{
+    right: 2px;
+}
